@@ -209,6 +209,7 @@ const Modal = () => {
                 </div>
                 <div className="bg-white p-2 h-20 w-20">
                   <QRCode
+                    //@ts-ignore
                     size="64"
                     value={`https://www.youtube.com/watch?v=${trailer}`}
                     onClick={() => {
