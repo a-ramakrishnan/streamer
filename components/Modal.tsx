@@ -25,6 +25,7 @@ import { db } from "../firebase";
 import useAuth from "../hooks/useAuth";
 // @ts-ignore
 import toast, { Toaster } from "react-hot-toast";
+import QRCode from "react-qr-code";
 
 const Modal = () => {
   const [movie, setMovie] = useRecoilState(movieState);
@@ -205,6 +206,15 @@ const Modal = () => {
                 <div>
                   <span className="text-[gray]">Total votes:</span>{" "}
                   {movie?.vote_count}
+                </div>
+                <div className="bg-white p-2 h-20 w-20">
+                  <QRCode
+                    size="64"
+                    value={`https://www.youtube.com/watch?v=${trailer}`}
+                    onClick={() => {
+                      window.open(`https://www.youtube.com/watch?v=${trailer}`);
+                    }}
+                  />
                 </div>
               </div>
             </div>
