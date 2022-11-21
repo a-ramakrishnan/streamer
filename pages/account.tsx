@@ -30,7 +30,7 @@ const Account = ({ products }: Props) => {
       <header className={`bg-[#141414]`}>
         <Link href="/">
           <h1 className="cursor-pointer animate-move-bg bg-gradient-to-r from-indigo-500 via-pink-500 to-indigo-500 bg-[length:400%] bg-clip-text text-2xl font-semibold text-transparent">
-            Clean Slate
+            School Stream
           </h1>
         </Link>
         <Link href="/account">
