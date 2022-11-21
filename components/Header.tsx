@@ -27,7 +27,7 @@ const Header = () => {
       {/*Left side*/}
       <div className="flex items-center space-x-2 sm:space-x-4 md:space-x-10">
         <h1 className="animate-move-bg bg-gradient-to-r from-indigo-500 via-pink-500 to-indigo-500 bg-[length:400%] bg-clip-text text-2xl font-semibold text-transparent">
-          Clean Slate
+          School Stream
         </h1>
         <BasicMenu />
         <ul className="hidden space-x-4 sm:flex">
