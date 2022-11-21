@@ -41,7 +41,7 @@ const Login = () => {
         objectFit="cover"
       />
       <h1 className="absolute left-4 top-4 cursor-pointer object-contain md:left-10 md:top-6 animate-move-bg bg-gradient-to-r from-indigo-500 via-pink-500 to-indigo-500 bg-[length:400%] bg-clip-text text-2xl font-semibold text-transparent">
-        Clean Slate
+        School Stream
       </h1>
       {/*<img*/}
       {/*  src="/streamerAssets/netflix.svg"*/}
