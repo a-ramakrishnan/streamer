@@ -54,7 +54,7 @@ const Home = ({
     );
   }
 
-  if (!subscription) return <Plans products={products} />;
+//   if (!subscription) return <Plans products={products} />;
 
   return (
     <div
